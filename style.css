@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Headland+One&family=Oswald:wght@300&family=Playfair+Display:wght@600&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+.container{
+    background-image: url(https://play-lh.googleusercontent.com/VWWBhQ0isuGTLbJQxMglld3LYBT3Y8MRjS1zRf6SOWQSkwnfjwEM-ga4oxE6c42SaYgi=h500);
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+#title{
+    margin-top: 5vh;
+    background: linear-gradient(to right, #f32170,
+    #ff6b08,#eedd44,orange,green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#heading{
+    margin-top: 10vh;
+    background: linear-gradient(to right, #f32170,
+    #ff6b08,#eedd44,orange,green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#textLabel{
+    color: orangered;
+    margin-left: 25.5vw;
+    margin-right: 20vw;
+}
+#textBox{
+    border: 2px solid orange;
+    width:18vw;
+    margin-left: 25.5vw;
+    margin-right: 20vw;
+}
+#attemptLabel{
+    background: linear-gradient(to right, #f32170,
+    rgb(240, 10, 10));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#attemptCount{
+    background: linear-gradient(to right, #f32170,
+    rgb(240, 10, 10));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+}
+#checkButton{
+    background-color: #FE8500;
+    margin: 8px 0;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    width: 10vw;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+}
+#message{
+    color: rgb(1000, 0, 0);
+}
+/*win.html*/
+#bg{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/24/00/10/wallpapers-5334220_960_720.png);
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+#win{
+    color: #FF1B3A;
+    border: 3px solid grey;
+    background-color: #f1e767;
+    background-image:(linear-gradient(top,  #f1e767 0%,#feb645 100%));
+    font-size: 2.5em;
+}
+/* lose.html */
+#bgimg{
+    background-image: url(http://wallup.net/wp-content/uploads/2015/07/Mickey-Mouse-simple-background-skeletons-comic-cartton-sketch.jpg);
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+#lose{
+    color: gold;
+    font-size: 2.5em;
+}
